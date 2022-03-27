@@ -1,0 +1,41 @@
+#profileimg {
+    width: 50%;
+    height: 50%;
+}
+body {
+    background-color: #f7f7ff;
+    scroll-behavior: smooth;
+}
+#home {
+    height: 500px;
+}
+nav {
+    background-color: #dcf7f5;
+    box-shadow: 3px 3px 5px #5f5d5d;
+}
+footer {
+    background-color: #444444;
+    color: #ffffff;
+}
+footer p{
+    color: #ffffff;
+}
+.nav-item {
+    margin: 10px;
+    border-radius: 25px;
+}
+.navbar-nav .nav-item:hover{
+    background-color: #ffffff;
+}
+#about p:nth-child(2) {
+    text-align: justify;
+}
+.skill-item {
+    margin: 15px;
+}
+@media (max-width: 768px){
+    #profileimg{
+        height: 200px;
+        width: 200px;
+    }
+}
